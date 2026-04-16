@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 // Reusing Bogie class
-class Bogie {
+class bogie {
     String name;
     int capacity;
 
@@ -16,7 +16,7 @@ class Bogie {
     }
 }
 
-public class trainuc8 {
+public class trainuc11 {
 
     public static void main(String[] args) {
 
