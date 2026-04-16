@@ -1,0 +1,37 @@
+import java.util.LinkedList;
+
+public class trainuc4 {
+
+    public static void main(String[] args) {
+
+        // Step 1: Create LinkedList
+        LinkedList<String> train = new LinkedList<>();
+
+        // Step 2: Add bogies
+        train.add("Engine");
+        train.add("Sleeper");
+        train.add("AC");
+        train.add("Cargo");
+        train.add("Guard");
+
+        System.out.println("Initial Train Consist:");
+        System.out.println(train);
+
+        // Step 3: Insert Pantry Car at position 2 (index starts from 0)
+        train.add(2, "Pantry Car");
+
+        System.out.println("\nAfter adding Pantry Car at position 2:");
+        System.out.println(train);
+
+        // Step 4: Remove first and last bogie
+        train.removeFirst();
+        train.removeLast();
+
+        System.out.println("\nAfter removing first and last bogie:");
+        System.out.println(train);
+
+        // Final state
+        System.out.println("\nFinal Train Consist:");
+        System.out.println(train);
+    }
+}
